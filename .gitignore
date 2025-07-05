@@ -1,5 +1,4 @@
 movies_metadata.csv
 credits.csv
 keywords.csv
-__pycache__/
-images/ 
+__pycache__/ 
