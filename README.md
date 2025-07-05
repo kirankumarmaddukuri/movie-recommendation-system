@@ -74,7 +74,7 @@ This project uses the [Kaggle Movies Dataset](https://www.kaggle.com/datasets/ro
 - **keywords.csv**: Keywords/tags for each movie (as JSON strings)
 
 **How to set up:**
-1. Download the dataset from [Kaggle](https://www.kaggle.com/datasets/rounakbanik/the-movies-dataset) or from this [Google Drive link](YOUR_GDRIVE_LINK_HERE).
+1. Download the dataset from [Kaggle](https://www.kaggle.com/datasets/rounakbanik/the-movies-dataset) or from this [Google Drive link](https://drive.google.com/drive/folders/17fapo4ExZJaDgyqEp_osUXT2qs2f0u4T?usp=sharing).
 2. Place `movies_metadata.csv`, `credits.csv`, and `keywords.csv` in your project folder.
 3. The app will automatically use these files for recommendations.
 
