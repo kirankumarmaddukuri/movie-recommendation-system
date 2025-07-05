@@ -53,12 +53,18 @@ ml/
 ├── movie_recommender.py    # Data loading, preprocessing, recommendation, and visualization logic
 ├── requirements.txt        # Python dependencies
 ├── README.md               # Project documentation
+├── images/                 # App screenshots and visual assets
+│   ├── homepage.png        # Home page screenshot
+│   ├── Recommended1.png    # Recommendations example 1
+│   ├── Recommended2.png    # Recommendations example 2
+│   └── datainsights.png    # Data insights screenshot
 ├── movies_metadata.csv     # Kaggle movie metadata (downloaded separately)
 ├── credits.csv             # Kaggle movie cast/crew (downloaded separately)
-├── keywords.csv            # Kaggle movie keywords (downloaded separately)
+└── keywords.csv            # Kaggle movie keywords (downloaded separately)
 ```
 - Place the three CSV files in the project folder as shown above.
 - All code and logic is in `app.py` and `movie_recommender.py`.
+- The `images/` folder contains screenshots for documentation.
 - No other files are required for the app to run.
 
 ## 📦 Dataset Details
@@ -91,6 +97,21 @@ This project uses the [Kaggle Movies Dataset](https://www.kaggle.com/datasets/ro
 - You only need a TMDB API key if you want to see movie posters in the recommendations.
 - If you do not enter an API key, the app will still work and simply show placeholder images instead of posters.
 - To get a free API key, sign up at [TMDB](https://www.themoviedb.org/settings/api) and enter your key in the sidebar when running the app.
+
+## 🚀 Future Scope & Feature Improvements
+
+### Planned Features
+- **Deploy the application** to Streamlit Cloud for public access
+- **Add user authentication** and personalized recommendation history
+- **Implement collaborative filtering** alongside content-based recommendations
+- **Add movie trailers** and video previews using YouTube API
+
+### Technical Improvements
+- **Optimize performance** for larger datasets (10,000+ movies)
+- **Add caching** for faster recommendation generation
+- **Implement A/B testing** for recommendation algorithms
+- **Add analytics dashboard** for usage statistics
+- **Create API endpoints** for third-party integrations
 
 ## 📄 License
 This project is open source and available under the MIT License.
